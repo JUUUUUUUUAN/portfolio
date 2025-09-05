@@ -276,11 +276,14 @@ header .inner ul li + li {
   .about-wrapper .edu {
     padding-left: 15px;
   }
+  .about-wrapper .edu span{
+    font-size: 10px;
+  }
   .about-wrapper .edu h3 {
     font-size: 18px;
   }
   .about-wrapper .edu ul {
-    font-size: 14px;
+    font-size: 12px;
   }
   .about-wrapper .edu ul li {
     padding-right: 10px;
