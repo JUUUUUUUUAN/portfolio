@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JU AN</title>
+
+  <!-- reset.css 적용 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+
+  <!-- 구글 웹폰트 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- 구글 머티리얼 아이콘 연결 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- main.css -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- main.js -->
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="inner">
+      <!-- 로고 -->
+      <a href="index.html" class="logo">
+        Ju An's portfolio
+      </a>
+      <!-- 메뉴 -->
+      <nav class="font-en">
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#project">PROJECT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- 햄버거 버튼 -->
+      <a href="javascript:void(0)" class="btn-hamburger">
+        <span class="material-symbols-outlined">menu</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="visual">
+    <div class="inner">
+      <video src="video/28320-369325356_medium.mp4" autoplay loop></video>
+      <div class="textWrap">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="inner">
+      <h1 class="title">ABOUT</h1>
+      <div class="about-wrapper">
+        <div class="profil">
+          <img src="https://image.idus.com/image/files/f333c623624a4d45b68b01b14c685505.jpg" alt="사진">
+        </div>
+        <div class="edu">
+          <div>
+            <span>#MBTI</span>
+            <span>#긍정적</span>
+            <span>#신입</span>
+          </div>
+          <ul>
+            <li>25.07 ~ 26.01 클라우드(AWS)활용 자바/스프링 개발 부트캠프 수료</li>
+            <li>20.02 ~ 25.02 oo학교 oo과 졸업</li>
+          </ul>
+          <h3>주안(1900.00.00)</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="skill">
+    <div class="inner">
+      <h1 class="title">SKILL</h1>
+      <div class="skillList">
+        <ul>
+          <li>
+            <div class="skill-text">
+              <img src="image/html.png" alt="html">
+              <div class="ability-bar">
+                <div class="ability-box">
+                  <div class="ability-percent html">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-text">
+              <img src="image/css.png" alt="css">
+              <div class="ability-bar">
+                <div class="ability-box">
+                  <div class="ability-percent css">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-text">
+              <img src="image/js.png" alt="js">
+              <div class="ability-bar">
+                <div class="ability-box">
+                  <div class="ability-percent js">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-text">
+              <img src="image/java.png" alt="java">
+              <div class="ability-bar">
+                <div class="ability-box">
+                  <div class="ability-percent java">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="project">
+    <div class="inner">
+      <h1 class="title">PROJECT</h1>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+              <div class="project-wrapper">
+                <div class="proj-img">
+                  <img src="image/work_1.jpg" alt="사진1">
+                </div>
+                <div class="proj-text">
+                  <h3>프로젝트명</h3>
+                  <ul>
+                    <li><span>개발 기간</span> 2025. 00 ~ 2025. 00</li>
+                    <li><span>개발 인원</span> 00명</li>
+                    <li><span>주요 내용</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Adipisci non porro quia dolorem vitae cupiditate ullam neque dolore dignissimos!
+                      Saepe libero perferendis magni quam aperiam nobis adipisci at labore voluptatem!</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-wrapper">
+              <div class="proj-img">
+                <img src="image/work_2.jpg" alt="사진1">
+              </div>
+              <div class="proj-text">
+                <h3>프로젝트명</h3>
+                <ul>
+                  <li><span>개발 기간</span> 2025. 00 ~ 2025. 00</li>
+                  <li><span>개발 인원</span> 00명</li>
+                  <li><span>주요 내용</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci non porro quia dolorem vitae cupiditate ullam neque dolore dignissimos!
+                    Saepe libero perferendis magni quam aperiam nobis adipisci at labore voluptatem!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-wrapper">
+              <div class="proj-img">
+                <img src="image/work_3.jpg" alt="사진1">
+              </div>
+              <div class="proj-text">
+                <h3>프로젝트명</h3>
+                <ul>
+                  <li><span>개발 기간</span> 2025. 00 ~ 2025. 00</li>
+                  <li><span>개발 인원</span> 00명</li>
+                  <li><span>주요 내용</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci non porro quia dolorem vitae cupiditate ullam neque dolore dignissimos!
+                    Saepe libero perferendis magni quam aperiam nobis adipisci at labore voluptatem!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="inner">
+      <h1 class="title">CONTACT</h1>
+      <div class="contact__wrapper">
+        <p class="email"><span class="material-symbols-outlined">mail</span>Ju_An@gmail.com</p>
+        <p class="phoneNum"><span class="material-symbols-outlined">phone_enabled</span>010-0000-0000</p>
+        <p class="sns"><span class="material-symbols-outlined">mobile_chat</span>Ju_An_o_o</pc>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
