@@ -241,7 +241,7 @@ header .inner ul li + li {
 
 @media screen and (max-width:767px) {
   .inner {
-    max-width: 80%;
+    width: 80%;
   }
   .title {
     text-align: center;
