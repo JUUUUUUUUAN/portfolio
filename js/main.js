@@ -5,11 +5,11 @@ console.log(contacticon);
 
 window.addEventListener('scroll', function(){
   console.log(window.scrollY);
-  if (window.scrollY >= 400) {
+  if (window.scrollY >= 300) {
   abilityBar.forEach(function(abilityBarEl){
     abilityBarEl.classList.add('show');
   })
-  if(window.scrollY >= 1800){
+  if(window.scrollY >= 1500){
     contacticon.classList.add('show');
   }
   }
